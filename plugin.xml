@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-firebase-digits" version="0.0.1" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>FirebaseDigits</name>
+    <js-module name="FirebaseDigits" src="www/FirebaseDigits.js">
+        <clobbers target="cordova.plugins.FirebaseDigits" />
+    </js-module>
+    <platform name="android">
+        <framework src="com.google.firebase:firebase-auth:11.4.0" />
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="FirebaseDigits">
+                <param name="android-package" value="cordova-plugin-firebase-digits.FirebaseDigits" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/FirebaseDigits.java" target-dir="src/cordova-plugin-firebase-digits/FirebaseDigits" />
+    </platform>
+</plugin>

@@ -1,0 +1,25 @@
+{
+  "name": "FirebaseDigits",
+  "version": "0.0.1",
+  "description": "A plugin to logon onto firebase using a phone number",
+  "cordova": {
+    "id": "cordova-plugin-firebase-digits",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheAppchemist/firebase-digits.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Melvin Musehani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheAppchemist/firebase-digits/issues"
+  },
+  "homepage": "https://github.com/TheAppchemist/firebase-digits#readme"
+}
