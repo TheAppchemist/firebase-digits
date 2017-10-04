@@ -1,6 +1,6 @@
 {
-  "name": "FirebaseDigits",
-  "version": "0.0.1",
+  "name": "cordova-firebase-digits",
+  "version": "0.1.5",
   "description": "A plugin to logon onto firebase using a phone number",
   "cordova": {
     "id": "cordova-plugin-firebase-digits",

@@ -7,7 +7,7 @@
         <clobbers target="cordova.plugins.FirebaseDigits" />
     </js-module>
     <platform name="android">
-        <framework src="com.google.firebase:firebase-auth:11.4.0" />
+        <framework src="src/android/digits.gradle" custom="true" type="gradleReference" />
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="FirebaseDigits">
                 <param name="android-package" value="cordova-plugin-firebase-digits.FirebaseDigits" />
